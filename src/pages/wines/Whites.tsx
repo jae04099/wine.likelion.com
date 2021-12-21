@@ -16,7 +16,7 @@ const WhitesPage: NextPage = () => {
                     return (
                         <div key={`whites-wine-list-${id}`}>
                             <h1>{wine}</h1>
-                            <h2>{winery}</h2>
+                            <h3>{winery}</h3>
                         </div>
                     )
                 })}
