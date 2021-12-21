@@ -14,7 +14,7 @@ const SparklingPage: NextPage = () => {
                 {data.map((wineData: Wine) => {
                     const { id, wine, winery } = wineData;
                     return (
-                        <div key={`port-wine-list-${id}`}>
+                        <div key={`sparkling-wine-list-${id}`}>
                             <h1>{wine}</h1>
                             <h2>{winery}</h2>
                         </div>
