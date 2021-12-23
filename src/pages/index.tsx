@@ -29,8 +29,8 @@ const Home: NextPage = () => {
       <BeerContainer>
       <a onClick={handleBeerClick}>Beer🍺</a>
       {isBeerClicked ? (<ul>
-        <li><a href={`${END_POINT}wines/ale`}>Ale</a></li>
-        <li><a href={`${END_POINT}wines/stouts`}>Stouts</a></li>
+        <li><a href={`${END_POINT}beers/ale`}>Ale</a></li>
+        <li><a href={`${END_POINT}beers/stouts`}>Stouts</a></li>
       </ul>) : ''}
       </BeerContainer>
       </InnerContainer>
